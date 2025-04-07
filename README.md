@@ -7,4 +7,4 @@ I am thrilled to be part of the ApexPlanet Internship Program, where I am workin
 
 ✅ Internship Duration: 1 April 2025 - 16th May 2025
 
-<font-size:18>✅ Internship Type: WEB Development</font>
+✅ Internship Type: WEB Development</font>
