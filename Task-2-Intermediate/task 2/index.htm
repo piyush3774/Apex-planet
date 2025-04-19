@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="1.js"></script>
+  </head>
+  <body>
+
+    <div class="layout">
+        <nav>Navigation</nav>
+        <main>Main Content</main>
+        <aside>Sidebar</aside>
+      </div>
+      
+   
+
+    <!---To do or gallery-->
+
+    <h2>To-Do List / Image Gallery</h2>
+
+    <input type="text" id="task-input" placeholder="New Task">
+    <button onclick="addTask()">Add Task</button>
+
+    <br><br>
+
+    <input type="file" id="image-input" accept="image/*">
+    <button onclick="addImage()">Add Image</button>
+
+    <ul id="task-list"></ul>
+
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+
+</html>
