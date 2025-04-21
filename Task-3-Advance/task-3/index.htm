@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Styling and JavaScript</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="1.js"></script>
+</head>
+<body>
+  <h1>Advanced Styling & JavaScript</h1>
+
+  <!-- Responsive Design Section -->
+  <section>
+    <h2>Responsive Design Test</h2>
+    <p>Resize the window to see background color change.</p>
+  </section>
+
+  <!-- Interactive Quiz -->
+  <section>
+    <h2>Quiz: What is the capital of France?</h2>
+    <button onclick="checkAnswer('Paris')">Paris</button>
+    <button onclick="checkAnswer('Rome')">Rome</button>
+    <button onclick="checkAnswer('Berlin')">Berlin</button>
+    <p id="quiz-result"></p>
+  </section>
+
+  <!-- Fetch API Section -->
+  <section>
+    <h2>Joke Generator</h2>
+    <button onclick="getJoke()">Get a Joke</button>
+    <p id="joke"></p>
+  </section>
+
+   <!-- Weather Fetcher -->
+   <section>
+    <h2>Weather Checker</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="getWeather()">Get Weather</button>
+    <p id="weather"></p>
+  </section>
+
+
+</body>
+</html>
